@@ -14,16 +14,14 @@ class StartScreen extends StatelessWidget {
         mainAxisSize: MainAxisSize.min,
         children: [
           Image.asset(
-            'assets/images/quiz-logo.png',
+            'assets/images/quiz-canva.png',
             width: 300,
             // Cria um efeito de transparência
-            color: const Color.fromARGB(150, 255, 255, 255),
+            // color: Color.fromARGB(201, 255, 255, 255),
           ),
-          const SizedBox(
-            height: 80,
-          ),
+        
           Text(
-            'Learn Flutter the fun way!',
+            'Teste seus conhecimentos!',
             style: GoogleFonts.lato(
               color: const Color.fromARGB(255, 237, 223, 252),
               fontSize: 24,
@@ -38,7 +36,7 @@ class StartScreen extends StatelessWidget {
               foregroundColor: Colors.white,
             ),
             icon: const Icon(Icons.arrow_right_alt),
-            label: const Text('Start Quiz'),
+            label: const Text('Começar Quiz'),
           )
         ],
       ),

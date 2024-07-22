@@ -2,54 +2,57 @@ import 'package:adv_basics/models/quiz_question.dart';
 
 const questions = [
   QuizQuestion(
-    'What are the main building blocks of Flutter UIs?',
+    'Qual é o maior país do mundo em extensão territorial?',
     [
-      'Widgets',
-      'Components',
-      'Blocks',
-      'Functions',
-    ],
-  ),
-  QuizQuestion('How are Flutter UIs built?', [
-    'By combining widgets in code',
-    'By combining widgets in a visual editor',
-    'By defining widgets in config files',
-    'By using XCode for iOS and Android Studio for Android',
-  ]),
-  QuizQuestion(
-    'What\'s the purpose of a StatefulWidget?',
-    [
-      'Update UI as data changes',
-      'Update data as UI changes',
-      'Ignore data changes',
-      'Render UI that does not depend on data',
+      'Rússia',
+      'Canadá',
+      'China',
+      'Estados Unidos',
     ],
   ),
   QuizQuestion(
-    'Which widget should you try to use more often: StatelessWidget or StatefulWidget?',
+    'Quem pintou a Mona Lisa?',
     [
-      'StatelessWidget',
-      'StatefulWidget',
-      'Both are equally good',
-      'None of the above',
+      'Leonardo da Vinci',
+      'Michelangelo',
+      'Vincent van Gogh',
+      'Pablo Picasso',
     ],
   ),
   QuizQuestion(
-    'What happens if you change data in a StatelessWidget?',
+    'Qual é o elemento químico representado pelo símbolo "O"?',
     [
-      'The UI is not updated',
-      'The UI is updated',
-      'The closest StatefulWidget is updated',
-      'Any nested StatefulWidgets are updated',
+      'Oxigênio',
+      'Ouro',
+      'Osmium',
+      'Ósmio',
     ],
   ),
   QuizQuestion(
-    'How should you update data inside of StatefulWidgets?',
+    'Qual é a capital do Japão?',
     [
-      'By calling setState()',
-      'By calling updateData()',
-      'By calling updateUI()',
-      'By calling updateState()',
+      'Tóquio',
+      'Pequim',
+      'Seul',
+      'Bangkok',
+    ],
+  ),
+  QuizQuestion(
+    'Qual é a fórmula química da água?',
+    [
+      'H₂O',
+      'CO₂',
+      'O₂',
+      'NaCl',
+    ],
+  ),
+  QuizQuestion(
+    'Qual planeta é conhecido como o Planeta Vermelho?',
+    [
+      'Marte',
+      'Júpiter',
+      'Saturno',
+      'Vênus',
     ],
   ),
 ];
